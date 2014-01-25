@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExplorerNavigationButton", "ExplorerNavigationButton\ExplorerNavigationButton.csproj", "{3C20C511-38E0-4923-98CD-AAE1995F008E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tester", "Tester\Tester.csproj", "{C240A3FD-0169-4227-A96F-BE07419E527E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C20C511-38E0-4923-98CD-AAE1995F008E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C20C511-38E0-4923-98CD-AAE1995F008E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C20C511-38E0-4923-98CD-AAE1995F008E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C20C511-38E0-4923-98CD-AAE1995F008E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C240A3FD-0169-4227-A96F-BE07419E527E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C240A3FD-0169-4227-A96F-BE07419E527E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C240A3FD-0169-4227-A96F-BE07419E527E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C240A3FD-0169-4227-A96F-BE07419E527E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

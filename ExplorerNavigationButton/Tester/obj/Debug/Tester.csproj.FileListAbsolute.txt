@@ -1,0 +1,11 @@
+d:\mathis\dokumente\visual studio 2012\Projects\ExplorerNavigationButton\Tester\bin\Debug\Tester.exe.config
+d:\mathis\dokumente\visual studio 2012\Projects\ExplorerNavigationButton\Tester\bin\Debug\Tester.exe
+d:\mathis\dokumente\visual studio 2012\Projects\ExplorerNavigationButton\Tester\bin\Debug\Tester.pdb
+d:\mathis\dokumente\visual studio 2012\Projects\ExplorerNavigationButton\Tester\bin\Debug\ExplorerNavigationButton.dll
+d:\mathis\dokumente\visual studio 2012\Projects\ExplorerNavigationButton\Tester\bin\Debug\ExplorerNavigationButton.pdb
+d:\mathis\dokumente\visual studio 2012\Projects\ExplorerNavigationButton\Tester\obj\Debug\Tester.csprojResolveAssemblyReference.cache
+d:\mathis\dokumente\visual studio 2012\Projects\ExplorerNavigationButton\Tester\obj\Debug\Tester.Form1.resources
+d:\mathis\dokumente\visual studio 2012\Projects\ExplorerNavigationButton\Tester\obj\Debug\Tester.Properties.Resources.resources
+d:\mathis\dokumente\visual studio 2012\Projects\ExplorerNavigationButton\Tester\obj\Debug\Tester.csproj.GenerateResource.Cache
+d:\mathis\dokumente\visual studio 2012\Projects\ExplorerNavigationButton\Tester\obj\Debug\Tester.exe
+d:\mathis\dokumente\visual studio 2012\Projects\ExplorerNavigationButton\Tester\obj\Debug\Tester.pdb

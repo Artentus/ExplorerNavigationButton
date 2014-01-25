@@ -1,0 +1,7 @@
+d:\mathis\dokumente\visual studio 2012\Projects\ExplorerNavigationButton\ExplorerNavigationButton\bin\Debug\ExplorerNavigationButton.dll.config
+d:\mathis\dokumente\visual studio 2012\Projects\ExplorerNavigationButton\ExplorerNavigationButton\bin\Debug\ExplorerNavigationButton.dll
+d:\mathis\dokumente\visual studio 2012\Projects\ExplorerNavigationButton\ExplorerNavigationButton\bin\Debug\ExplorerNavigationButton.pdb
+d:\mathis\dokumente\visual studio 2012\Projects\ExplorerNavigationButton\ExplorerNavigationButton\obj\Debug\ExplorerNavigationButton.Properties.Resources.resources
+d:\mathis\dokumente\visual studio 2012\Projects\ExplorerNavigationButton\ExplorerNavigationButton\obj\Debug\ExplorerNavigationButton.csproj.GenerateResource.Cache
+d:\mathis\dokumente\visual studio 2012\Projects\ExplorerNavigationButton\ExplorerNavigationButton\obj\Debug\ExplorerNavigationButton.dll
+d:\mathis\dokumente\visual studio 2012\Projects\ExplorerNavigationButton\ExplorerNavigationButton\obj\Debug\ExplorerNavigationButton.pdb
