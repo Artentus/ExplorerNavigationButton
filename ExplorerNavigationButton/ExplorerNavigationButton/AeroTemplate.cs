@@ -138,7 +138,7 @@ namespace ExplorerNavigationButton
 
             protected override void DrawNormal(Graphics g, ArrowDirection direction)
             {
-                g.FillEllipse(normalBackgrounBrush, backgroundRect);
+                g.FillPath(normalBackgrounBrush, lowerBackgroundPath);
                 g.FillPath(normalUpperBackgroundBrush, upperBackgroundPath);
                 g.FillEllipse(normalLowerBackgroundBrush, backgroundRect);
 
@@ -149,7 +149,7 @@ namespace ExplorerNavigationButton
 
             protected override void DrawHover(Graphics g, ArrowDirection direction)
             {
-                g.FillEllipse(hoverBackgrounBrush, backgroundRect);
+                g.FillPath(hoverBackgrounBrush, lowerBackgroundPath);
                 g.FillPath(hoverUpperBackgroundBrush, upperBackgroundPath);
                 g.FillEllipse(hoverLowerBackgroundBrush, backgroundRect);
 
@@ -160,7 +160,7 @@ namespace ExplorerNavigationButton
 
             protected override void DrawPressed(Graphics g, ArrowDirection direction)
             {
-                g.FillEllipse(pressedBackgrounBrush, backgroundRect);
+                g.FillPath(pressedBackgrounBrush, lowerBackgroundPath);
                 g.FillPath(pressedUpperBackgroundBrush, upperBackgroundPath);
                 g.FillEllipse(pressedLowerBackgroundBrush, backgroundRect);
 

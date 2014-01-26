@@ -9,3 +9,4 @@ d:\mathis\dokumente\visual studio 2012\Projects\ExplorerNavigationButton\Tester\
 d:\mathis\dokumente\visual studio 2012\Projects\ExplorerNavigationButton\Tester\obj\Debug\Tester.csproj.GenerateResource.Cache
 d:\mathis\dokumente\visual studio 2012\Projects\ExplorerNavigationButton\Tester\obj\Debug\Tester.exe
 d:\mathis\dokumente\visual studio 2012\Projects\ExplorerNavigationButton\Tester\obj\Debug\Tester.pdb
+d:\mathis\dokumente\visual studio 2012\Projects\ExplorerNavigationButton\Tester\bin\Debug\ExplorerNavigationButton.xml

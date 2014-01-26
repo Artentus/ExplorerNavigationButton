@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ExplorerNavigationButton</name>
+    </assembly>
+    <members>
+        <member name="T:ExplorerNavigationButton.ExplorerNavigationButton">
+            <summary>
+            A button with the appearance of the explorer's navigation buttons.
+            </summary>
+            <remarks>The control switches its appearance based on the current operating system to fit the explorer's appearance.</remarks>
+        </member>
+        <member name="M:ExplorerNavigationButton.ExplorerNavigationButton.#ctor">
+            <summary>
+            Creates a new ExplorerNavigationButton.
+            </summary>
+        </member>
+        <member name="E:ExplorerNavigationButton.ExplorerNavigationButton.ArrowDirectionChanged">
+            <summary>
+            Is risen if the arrow direction has changed.
+            </summary>
+        </member>
+        <member name="E:ExplorerNavigationButton.ExplorerNavigationButton.ThemeChanged">
+            <summary>
+            Is risen if the theme has changed.
+            </summary>
+        </member>
+        <member name="P:ExplorerNavigationButton.ExplorerNavigationButton.ArrowDirection">
+            <summary>
+            Indicates the direction of the arrow.
+            </summary>
+        </member>
+        <member name="P:ExplorerNavigationButton.ExplorerNavigationButton.Theme">
+            <summary>
+            Indicates the theme of this button.
+            </summary>
+        </member>
+        <member name="T:ExplorerNavigationButton.ArrowDirection">
+            <summary>
+            The direction of an arrow.
+            </summary>
+        </member>
+        <member name="F:ExplorerNavigationButton.ArrowDirection.Left">
+            <summary>
+            The arrow points to the left.
+            </summary>
+        </member>
+        <member name="F:ExplorerNavigationButton.ArrowDirection.Right">
+            <summary>
+            The arrow points to the right.
+            </summary>
+        </member>
+        <member name="T:ExplorerNavigationButton.ButtonTheme">
+            <summary>
+            The theme of the ExplorerNavigationButton.
+            </summary>
+        </member>
+        <member name="F:ExplorerNavigationButton.ButtonTheme.Auto">
+            <summary>
+            The control chooses its theme automatically.
+            </summary>
+        </member>
+        <member name="F:ExplorerNavigationButton.ButtonTheme.Default">
+            <summary>
+            The default theme.
+            </summary>
+        </member>
+        <member name="F:ExplorerNavigationButton.ButtonTheme.Aero">
+            <summary>
+            The aero theme.
+            </summary>
+        </member>
+        <member name="F:ExplorerNavigationButton.ButtonTheme.Metro">
+            <summary>
+            The metro theme.
+            </summary>
+        </member>
+        <member name="T:ExplorerNavigationButton.Properties.Resources">
+            <summary>
+              Eine stark typisierte Ressourcenklasse zum Suchen von lokalisierten Zeichenfolgen usw.
+            </summary>
+        </member>
+        <member name="P:ExplorerNavigationButton.Properties.Resources.ResourceManager">
+            <summary>
+              Gibt die zwischengespeicherte ResourceManager-Instanz zurück, die von dieser Klasse verwendet wird.
+            </summary>
+        </member>
+        <member name="P:ExplorerNavigationButton.Properties.Resources.Culture">
+            <summary>
+              Überschreibt die CurrentUICulture-Eigenschaft des aktuellen Threads für alle
+              Ressourcenzuordnungen, die diese stark typisierte Ressourcenklasse verwenden.
+            </summary>
+        </member>
+        <member name="P:ExplorerNavigationButton.Properties.Resources.Left_Disabled">
+            <summary>
+              Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ExplorerNavigationButton.Properties.Resources.Left_Normal">
+            <summary>
+              Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ExplorerNavigationButton.Properties.Resources.Right_Disabled">
+            <summary>
+              Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ExplorerNavigationButton.Properties.Resources.Right_Normal">
+            <summary>
+              Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -28,12 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.explorerNavigationButton2 = new ExplorerNavigationButton.ExplorerNavigationButton();
             this.explorerNavigationButton1 = new ExplorerNavigationButton.ExplorerNavigationButton();
             this.SuspendLayout();
             // 
+            // explorerNavigationButton2
+            // 
+            this.explorerNavigationButton2.ArrowDirection = ExplorerNavigationButton.ArrowDirection.Right;
+            this.explorerNavigationButton2.Location = new System.Drawing.Point(145, 72);
+            this.explorerNavigationButton2.Name = "explorerNavigationButton2";
+            this.explorerNavigationButton2.Size = new System.Drawing.Size(24, 24);
+            this.explorerNavigationButton2.TabIndex = 1;
+            this.explorerNavigationButton2.Text = "explorerNavigationButton2";
+            // 
             // explorerNavigationButton1
             // 
-            this.explorerNavigationButton1.Location = new System.Drawing.Point(0, 0);
+            this.explorerNavigationButton1.Location = new System.Drawing.Point(118, 72);
             this.explorerNavigationButton1.Name = "explorerNavigationButton1";
             this.explorerNavigationButton1.Size = new System.Drawing.Size(24, 24);
             this.explorerNavigationButton1.TabIndex = 0;
@@ -45,6 +55,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(731, 535);
+            this.Controls.Add(this.explorerNavigationButton2);
             this.Controls.Add(this.explorerNavigationButton1);
             this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.Black;
@@ -57,6 +68,7 @@
         #endregion
 
         private ExplorerNavigationButton.ExplorerNavigationButton explorerNavigationButton1;
+        private ExplorerNavigationButton.ExplorerNavigationButton explorerNavigationButton2;
 
     }
 }

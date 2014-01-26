@@ -9,16 +9,31 @@ using ExplorerNavigationButton.Properties;
 namespace ExplorerNavigationButton
 {
     /// <summary>
-    /// A button with the appearence of the explorer's navigation buttons.
+    /// A button with the appearance of the explorer's navigation buttons.
     /// </summary>
-    /// <remarks>The control switches its appearence based on the current operating system to fit the explorer's appearence.</remarks>
-    [Description("A button with the appearence of the explorer navigation buttons.")]
+    /// <remarks>The control switches its appearance based on the current operating system to fit the explorer's appearance.</remarks>
+    [Description("A button with the appearance of the explorer navigation buttons.")]
     public partial class ExplorerNavigationButton : Control
     {
-        readonly Template template;
+        Template template;
         readonly Bitmap[] arrows;
         ArrowDirection arrowDirection;
+        ButtonTheme theme;
         ButtonState state;
+
+        /// <summary>
+        /// Is risen if the arrow direction has changed.
+        /// </summary>
+        [Category("Appearance")]
+        [Description("Is risen if the arrow direction has changed.")]
+        public event EventHandler ArrowDirectionChanged;
+
+        /// <summary>
+        /// Is risen if the theme has changed.
+        /// </summary>
+        [Category("Appearance")]
+        [Description("Is risen if the theme has changed.")]
+        public event EventHandler ThemeChanged;
 
         /// <summary>
         /// Indicates the direction of the arrow.
@@ -35,11 +50,65 @@ namespace ExplorerNavigationButton
                 {
                     arrowDirection = value;
                     this.Invalidate();
+
+                    this.OnArrowDirectionChanged(EventArgs.Empty);
                 }
             }
         }
 
-        private Template SelectTemplate()
+        /// <summary>
+        /// Indicates the theme of this button.
+        /// </summary>
+        [Category("Appearance")]
+        [Description("Indicates the theme of this button.")]
+        [DefaultValue(ButtonTheme.Auto)]
+        public ButtonTheme Theme
+        {
+            get { return theme; }
+            set
+            {
+                if (value != theme)
+                {
+                    theme = value;
+
+                    if (template != null) template.Dispose();
+                    template = this.SelectTemplate(theme);
+
+                    this.Invalidate();
+
+                    this.OnTemplateChanged(EventArgs.Empty);
+                }
+            }
+        }
+
+        protected virtual void OnArrowDirectionChanged(EventArgs e)
+        {
+            if (ArrowDirectionChanged != null)
+                ArrowDirectionChanged(this, e);
+        }
+
+        protected virtual void OnTemplateChanged(EventArgs e)
+        {
+            if (ThemeChanged != null)
+                ThemeChanged(this, e);
+        }
+
+        private Template SelectTemplate(ButtonTheme theme)
+        {
+            switch (theme)
+            {
+                case ButtonTheme.Default:
+                    return null;
+                case ButtonTheme.Aero:
+                    return new AeroTemplate();
+                case ButtonTheme.Metro:
+                    return new MetroTemplate();
+                default:
+                    return this.AutoSelectTemplate();
+            }
+        }
+
+        private Template AutoSelectTemplate()
         {
             if (Application.RenderWithVisualStyles)
             {
@@ -72,7 +141,7 @@ namespace ExplorerNavigationButton
             arrows[2] = Resources.Left_Disabled;
             arrows[3] = Resources.Right_Disabled;
 
-            template = this.SelectTemplate();
+            template = this.AutoSelectTemplate();
         }
 
         protected override void OnMouseEnter(EventArgs e)

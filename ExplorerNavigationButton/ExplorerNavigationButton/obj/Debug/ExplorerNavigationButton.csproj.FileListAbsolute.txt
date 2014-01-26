@@ -5,3 +5,5 @@ d:\mathis\dokumente\visual studio 2012\Projects\ExplorerNavigationButton\Explore
 d:\mathis\dokumente\visual studio 2012\Projects\ExplorerNavigationButton\ExplorerNavigationButton\obj\Debug\ExplorerNavigationButton.csproj.GenerateResource.Cache
 d:\mathis\dokumente\visual studio 2012\Projects\ExplorerNavigationButton\ExplorerNavigationButton\obj\Debug\ExplorerNavigationButton.dll
 d:\mathis\dokumente\visual studio 2012\Projects\ExplorerNavigationButton\ExplorerNavigationButton\obj\Debug\ExplorerNavigationButton.pdb
+d:\mathis\dokumente\visual studio 2012\Projects\ExplorerNavigationButton\ExplorerNavigationButton\bin\Debug\ExplorerNavigationButton.XML
+d:\mathis\dokumente\visual studio 2012\Projects\ExplorerNavigationButton\ExplorerNavigationButton\obj\Debug\ExplorerNavigationButton.csprojResolveAssemblyReference.cache
